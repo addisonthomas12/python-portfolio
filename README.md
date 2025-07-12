@@ -664,25 +664,191 @@ print (celsius_cal )
 def explicit_fahr_to_celsius (temp):
     #Assign the converted value to a variable
     converted = ((temp-32))
-```
-
-
-```python
-def fahr_to_kelvin(temp_f):
+ def fahr_to_kelvin(temp_f):
     temp_c= fahr_to_celsius(temp_f)
-    return temp_k
-print('boiling popint of water in kelvin:', fahr_to_kelvin)
+
+
+(base) student@landingvm:~$ 
+(base) student@landingvm:~$ anacoda     jupyter lab .  # Launch in the current directory
+anacoda: command not found
+(base) student@landingvm:~$     jupyter lab ../notebooks  # Launch with a relative path
+[C 14:06:22.636 LabApp] No such file or directory: /home/notebooks
+(base) student@landingvm:~$     jupyter lab /Users/username/notebooks/test.ipynb  # Open a specific notebook    jupyter lab .  # Launch in the current directory
+[C 14:07:07.062 LabApp] No such file or directory: /Users/username/notebooks/test.ipynb
+(base) student@landingvm:~$     jupyter lab ../notebooks  # Launch with a relative path
+[C 14:07:07.362 LabApp] No such file or directory: /home/notebooks
+(base) student@landingvm:~$     jupyter lab /Users/username/notebooks/test.ipynb  # Open a specific notebook    jupyter lab --dev-mode  # Start in development mode (no extensions)
+[C 14:07:17.051 LabApp] No such file or directory: /Users/username/notebooks/test.ipynb
+(base) student@landingvm:~$     jupyter lab --core-mode  # Start in core mode (no extensions)    jupyter nbconvert --execute --to html --no-input your-notebook.ipynb  [I 14:08:42.322 LabApp] The port 8888 is already in use, trying another port.
+[I 14:08:42.326 LabApp] Running JupyterLab in core mode
+[I 14:08:42.327 LabApp] JupyterLab extension loaded from /home/student/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 14:08:42.327 LabApp] JupyterLab application directory is /home/student/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 14:08:42.327 LabApp] Running the core application with no additional extensions or settings
+[I 14:08:42.534 LabApp] Loading the assignment_list nbgrader serverextension
+[I 14:08:42.535 LabApp] Loading the course_list nbgrader serverextension
+[I 14:08:42.537 LabApp] Loading the formgrader nbgrader serverextension
+[W 14:08:42.539 LabApp] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[I 14:08:42.548 LabApp] Loading the validate_assignment nbgrader serverextension
+[I 14:08:42.549 LabApp] Serving notebooks from local directory: /home/student
+[I 14:08:42.549 LabApp] The Jupyter Notebook is running at:
+[I 14:08:42.549 LabApp] http://localhost:8889/?token=59efae60de455f46ff61ed16b31312fb262521574298bd61
+[I 14:08:42.549 LabApp]  or http://127.0.0.1:8889/?token=59efae60de455f46ff61ed16b31312fb262521574298bd61
+[I 14:08:42.549 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:08:42.552 LabApp] No web browser found: could not locate runnable browser.
+[C 14:08:42.552 LabApp] 
+
+
+## Command line programs
+5.725
+5.925
+6.15
+6.075
+5.75
+5.975
+6.3
+5.9
+6.75
+6.3
+5.9
+6.75
+5.925
+7.225
+6.15
+5.95
+6.275
+5.7
+6.1
+6.825
+5.975
+6.725
+5.7
+6.25
+6.4
+7.05
+5.9
+(base) student@landingvm:~/Desktop/classroom/myfiles/swc-python/data$ inflammation-01.csv
+(base) student@landingvm
+18.0
+18.0
+19.0
+18.0
+17.0
+17.0
+17.9
+16.0
+17.0
+18.0
+18.0
+16.0
+
+
+```python
+# Any python interpreter can be used as a calculator:
+3 + 5 * 4
+```
+
+
+
+
+    23
+
+
+
+
+## Python Fundamentals
+
+
+weight_kg = 60
 ```
 
 
 ```python
-print('Again, temperature in kevlvin')
-```python
-def visualize (file name):
-    data = numpy.loadtxt(fname =file name, delimiter ='.'
-    fig = matplot.lib.figure (figsize =(10.0,3.0))
-    axes1 = fig.add_subplot                     
+print(weight_kg)
 ```
+
+    60
+
+
+
+```python
+# Weight0 = valud
+# 0weight = invalid
+# weight and Weight are different
+```
+
+
+```python
+# Types of data
+# There are three common types of data
+# Integer numbers
+# floating point numbers
+# Strings
+```
+
+
+```python
+# Floating point number
+weight_kg = 60.3
+```
+
+
+```python
+patient_name = 'Jon Smith'
+```
+
+
+```python
+# String comprised of numbers
+patient_id = '001'
+```
+
+
+```python
+# Use variables in python
+
+weight_lb = 2.2 * weight_kg
+
+print(weight_lb)
+```
+
+    132.0
+
+
+
+```python
+# Lets add a prefix to our patient id
+
+patient_id = 'inflam_' + patient_id
+
+print(patient_id)
+```
+
+
+```python
+# we can call a function inside another function
+
+print(type(60.3))
+
+print(type(patient_id))
+```
+
+    <class 'float'>
+
+
+
+
+
+```python
+
+```
+
+    
+
+
+  
+
+             
+
 
 
 
