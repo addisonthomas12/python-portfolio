@@ -219,7 +219,7 @@ import numpy
 
 
 
-## Transcribing Dna into Rna
+## Translating Dna into Rna
 
 
 
@@ -645,7 +645,6 @@ print(ThERna sequence has been save to (output_file_name))
 ```python
 from Bio.Seq import Seq
 
-##Function 1,2,3,4
 ```python
 farenheit_val =99
 celsius_val= ((farenheit_val - 32) 
@@ -697,7 +696,7 @@ anacoda: command not found
 [W 14:08:42.552 LabApp] No web browser found: could not locate runnable browser.
 [C 14:08:42.552 LabApp] 
 
-
+`
 ## Command line programs
 5.725
 5.925
@@ -838,11 +837,60 @@ print(type(patient_id))
 
 
 
+## Jupyter notes
 ```python
-
+%matplotlib inline
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set(style = "darkgrid")
 ```
 
-    
+
+```python
+df = pd.read_csv('/home/student/Desktoo/classroom/myfiles/notebooks/fortune500.csv')
+```
+
+
+```python
+df.head()
+```
+
+```python
+df.tail()
+```
+
+
+```python
+non_numeric_profits = df.profit.str.contains('[^0-9.-1]')
+df.loc[non_numeric_profits].head()
+```
+
+
+```python
+len.(df)
+```
+
+
+```python
+df.dtypes
+```
+
+
+```python
+set(df.profit[non_numeric_profits])
+```
+
+
+```python
+len(df.profit[non_numeric_profits])
+
+
+
+
+
+
+
 
 
   
